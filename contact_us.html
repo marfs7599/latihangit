@@ -4,59 +4,51 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hubungi Kami - Asy-Syifa Tonik Apel</title>
-<style>
-	body {
-		margin: 0;
-	}
-	.header_contact {
-		margin: auto;
-		width: 100%;
-		padding: 10px;
-		text-align: center;
-		background-color: lightgrey;
-	}
-	.header_contact h1 {
-		margin: 0;
-	}
-	.header_contact h3 {
-		margin-top: -2px;
-	}
-	/* Informasi Kontak */
-	.body_contact .info_kontak {
-		background-color: lightblue;
-		border-radius: 5px;
-		padding: 2px 15px;
-		width: 47%;
-		float: right;
-	}
-	/* Form Pesan */
-	.body_contact .form_pesan {
-		background-color: lightgoldenrodyellow;
-		width: 47%;
-		border-radius: 5px;
-		padding: 2px 15px;
-		float: left;
-	}
-</style>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<style>
+		body {
+			margin: 0;
+		}
+		.header_contact {
+			margin: auto;
+			width: 100%;
+			padding: 10px;
+			text-align: center;
+			background-color: lightgrey;
+		}
+		.header_contact h1 {
+			margin: 0;
+		}
+		.header_contact h3 {
+			margin-top: -2px;
+		}
+		/* Informasi Kontak */
+		.body_contact .info_kontak {
+			background-color: lightblue;
+			border-radius: 5px;
+			padding: 2px 15px;
+			width: 100%;
+		}
+		/* Form Pesan */
+		.body_contact .form_pesan {
+			background-color: lightgoldenrodyellow;
+			width: 100%;
+			border-radius: 5px;
+			padding: 2px 15px;
+		}
+		footer {
+			background-color: rgb(199, 241, 10);
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	<div class="header_contact">
+	<div class="header_contact bg-info">
 		<h1>Hubungi Kami</h1>
 		<h3>Anda memiliki pertanyaan atau keluhan? Sampaikan kepada kami.</h3>
-	</div>
+	</div>	
 	<div class="body_contact">
-		<div class="info_kontak">
-			<h2>Informasi Kontak</h2>
-			<p>Anda dapat menghubungi kontak berikut :</p>
-			<img src="https://cdn-icons-png.flaticon.com/128/134/134937.png" alt="Icon Whatsapp">Whatsapp : 
-			<a href="https://wa.me/62895359530478" target="_blank">+62 895-3595-30478</a><br>
-			<img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Icon Instagram">Instagram : 
-			<a href="https://wa.me/62895359530478" target="_blank">@tonikapel.asysyifa</a><br>
-			<h3>Atau datang langsung ke toko kami di :</h3>
-			<h4>Dsn. Bengkaras RT.07 RW. 03 Desa Madiredo, Kec. Pujon, Kab. Malang. Klik <a href="https://goo.gl/maps/mQ4VpM27V7fohc1a8" target="_blank">disini</a> untuk membuka google maps.</h4><br>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.1666063926019!2d112.46927420731865!3d-7.825086224296489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e787d0c384838d3%3A0x2b0b9af8937fc2c7!2sBalai%20Desa%20Madiredo!5e0!3m2!1sid!2sid!4v1663826398510!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</div>
-		<div class="form_pesan">
+		<div class="content form_pesan bg-light">
 			<form>
 				<label for="nama">Nama Lengkap</label><br>
 				<input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap"><br>
@@ -71,6 +63,19 @@
 				<button type="submit" id="kirim">Kirim Pesan</button>
 			</form>
 		</div>
-	</div>	
+		<div class="info_kontak">
+			<h1>Informasi Kontak</h1>
+			<p>Anda dapat menghubungi kontak berikut :</p>
+			<img src="https://cdn-icons-png.flaticon.com/128/134/134937.png" alt="Icon Whatsapp">Whatsapp : 
+			<a href="https://wa.me/62895359530478" target="_blank">+62 895-3595-30478</a><br>
+			<img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Icon Instagram">Instagram : 
+			<a href="https://wa.me/62895359530478" target="_blank">@tonikapel.asysyifa</a><br>
+			<h4>Atau datang langsung ke toko kami di :</h4>
+			<h6>Dsn. Bengkaras RT.07 RW. 03 Desa Madiredo, Kec. Pujon, Kab. Malang. Klik <a href="https://goo.gl/maps/mQ4VpM27V7fohc1a8" target="_blank">disini</a> untuk membuka google maps.</h6><br>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.1666063926019!2d112.46927420731865!3d-7.825086224296489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e787d0c384838d3%3A0x2b0b9af8937fc2c7!2sBalai%20Desa%20Madiredo!5e0!3m2!1sid!2sid!4v1663826398510!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<footer>Copyright by Asy-Syifa Tonik Apel<br>Malang - Jawa Timur | 2022</footer>
 </body>
 </html>
